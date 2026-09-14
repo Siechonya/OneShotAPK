@@ -57,7 +57,7 @@
     {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "abi": "arm64-v8a",
       "engine": "Godot 4.7.2 (GL Compatibility)",
       "min_sdk": "24",
@@ -72,7 +72,7 @@
       ],
       "file": "apks/miao-night-kitchen/MiaoNightKitchen-arm64-debug.apk",
       "size": 32467454,
-      "sha256": "f7ac22ac7040c3453142a93e458dd937f895522abed975212942dfb692032261",
+      "sha256": "019d56b7860cccfa6da08263d06160e13dc88d3543598c529007eba6eebbc01d",
       "added": "2026-09-14",
       "extra_files": []
     }
