@@ -46,7 +46,13 @@
       "size": 30515388,
       "sha256": "da0107d3af7e892fda4a23cbe68a186e4f1ae5fcd3957a8417dd8857e6c72fd7",
       "added": "2026-09-14",
-      "extra_files": []
+      "extra_files": [
+        {
+          "label": "模拟器 x86_64",
+          "file": "apks/hotel-parallax/折光旅馆-1.1.0-模拟器x86_64.apk",
+          "size": 33296566
+        }
+      ]
     }
   ]
 }

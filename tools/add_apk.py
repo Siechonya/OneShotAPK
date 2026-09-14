@@ -78,13 +78,19 @@ def main() -> int:
         if "=" not in item:
             continue
         label, p = item.split("=", 1)
+        pub = ""
+        if "|" in p:
+            p, pub = p.split("|", 1)
         ps = Path(p).expanduser().resolve()
         if not ps.exists():
             print("WARN: extra missing, skipped: %s" % ps)
             continue
-        ed = dest_dir / ps.name
+        ename = pub.strip().replace("/", "-") or ps.name
+        if not ename.lower().endswith(".apk"):
+            ename += ".apk"
+        ed = dest_dir / ename
         shutil.copyfile(ps, ed)
-        extras.append({"label": label, "file": "apks/%s/%s" % (app_id, ps.name),
+        extras.append({"label": label, "file": "apks/%s/%s" % (app_id, ename),
                        "size": ps.stat().st_size})
 
     entry = {
