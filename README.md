@@ -1,5 +1,7 @@
 # APK Hub（OneShotAPK）
 
+线上地址：https://oneshotapk.siecho.cn （push 即自动部署）
+
 本机各会话产出的 Android APK 汇总下载站。Vercel 部署，push 即自动重新部署。
 
 ## 结构
@@ -23,7 +25,7 @@ python D:/ApkHub/tools/add_apk.py \
   --commit --push --message "apk: add <slug>"
 ```
 同 id 重复添加会覆盖旧条目与文件。清单更新后 push 即上线；下载直链为
-`https://<站点>/apks/<id>/<文件名>.apk`。
+`https://oneshotapk.siecho.cn/apks/<id>/<文件名>.apk`。
 
 ## 部署（owner 一次性配置）
 1. GitHub 仓库 `Siechonya/OneShotAPK` → Settings → Deploy keys → 添加
