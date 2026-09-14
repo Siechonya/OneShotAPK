@@ -53,6 +53,28 @@
           "size": 33296566
         }
       ]
+    },
+    {
+      "id": "miao-night-kitchen",
+      "name": "喵夜魔法厨房",
+      "version": "1.0.1",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2 (GL Compatibility)",
+      "min_sdk": "24",
+      "desc": "深夜厨房动作肉鸽：小猫魔女用魔法餐具击退暴走食材，10 分钟一局，升级三选一、武器进化、击败布丁大王。",
+      "tags": [
+        "游戏",
+        "肉鸽",
+        "动作",
+        "单机",
+        "Godot",
+        "竖屏"
+      ],
+      "file": "apks/miao-night-kitchen/MiaoNightKitchen-arm64-debug.apk",
+      "size": 32467454,
+      "sha256": "1cc558f2b2e6b4e40b5ecbbb250aaf7b68e45d56814528f049ce0500d035ba52",
+      "added": "2026-09-14",
+      "extra_files": []
     }
   ]
 }
