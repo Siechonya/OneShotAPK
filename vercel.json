@@ -13,6 +13,7 @@
       "source": "/apks/manifest.json",
       "headers": [
         { "key": "Cache-Control", "value": "no-cache" },
+        { "key": "Content-Type", "value": "application/json; charset=utf-8" },
         { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     }

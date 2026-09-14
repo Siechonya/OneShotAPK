@@ -12,6 +12,7 @@ Copies an APK into the hub, records metadata in public/apks/manifest.json and
 import argparse
 import hashlib
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -50,6 +51,8 @@ def main() -> int:
     ap.add_argument("--tags", default="")
     ap.add_argument("--extra", action="append", default=[],
                     help="label=path, repeatable")
+    ap.add_argument("--file-name", default="",
+                    help="public file name, e.g. 折光旅馆-1.0.0-arm64.apk")
     ap.add_argument("--commit", action="store_true")
     ap.add_argument("--push", action="store_true")
     ap.add_argument("--message", default="")
@@ -62,7 +65,12 @@ def main() -> int:
     app_id = a.id or src.stem.lower().replace(" ", "-")
     dest_dir = APKS / app_id
     dest_dir.mkdir(parents=True, exist_ok=True)
-    dest = dest_dir / src.name
+    pub_name = a.file_name.strip().replace('/', '-').replace(os.sep, '-') or src.name
+    if not pub_name.lower().endswith('.apk'):
+        pub_name += '.apk'
+    dest = dest_dir / pub_name
+    if dest.exists():
+        dest.unlink()
     shutil.copyfile(src, dest)
 
     extras = []
@@ -88,7 +96,7 @@ def main() -> int:
         "min_sdk": a.min_sdk,
         "desc": a.desc,
         "tags": [t for t in a.tags.split(",") if t],
-        "file": "apks/%s/%s" % (app_id, src.name),
+        "file": "apks/%s/%s" % (app_id, pub_name),
         "size": src.stat().st_size,
         "sha256": sha256(dest),
         "added": date.today().isoformat(),

@@ -15,14 +15,14 @@
         "offline",
         "godot"
       ],
-      "file": "apks/hotel-parallax/HotelParallax-arm64-debug.apk",
+      "file": "apks/hotel-parallax/折光旅馆-1.0.0-arm64.apk",
       "size": 30511292,
       "sha256": "073a6439303c277079450a18ab6840a3f698230eb60d3629cfe0a07b850c9428",
       "added": "2026-09-14",
       "extra_files": [
         {
           "label": "模拟器 x86_64",
-          "file": "apks/hotel-parallax/HotelParallax-x86_64-debug.apk",
+          "file": "apks/hotel-parallax/折光旅馆-1.0.0-模拟器x86_64.apk",
           "size": 33292470
         }
       ]

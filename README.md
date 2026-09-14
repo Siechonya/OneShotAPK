@@ -22,9 +22,12 @@ python D:/ApkHub/tools/add_apk.py \
   --apk <apk路径> --id <slug> --name "名称" --version 1.0.0 \
   --desc "一句话介绍" --abi arm64-v8a --engine "Godot 4.7.2" --min-sdk 24 \
   --tags a,b --extra "模拟器 x86_64=<另一个apk>" \
+  --file-name "<中文展示名>-<版本>-<abi>.apk" \
   --commit --push --message "apk: add <slug>"
 ```
-同 id 重复添加会覆盖旧条目与文件。清单更新后 push 即上线；下载直链为
+同 id 重复添加会覆盖旧条目与文件。对外文件名用 `--file-name` 指定中文展示名
+（如 `折光旅馆-1.0.0-arm64.apk`），不要把 debug/unsigned 等构建字样发布出去。
+全站文本与清单均为 UTF-8；中文文件名在 URL 中为百分号编码。清单更新后 push 即上线；下载直链为
 `https://oneshotapk.siecho.cn/apks/<id>/<文件名>.apk`。
 
 ## 部署（owner 一次性配置）
