@@ -28,33 +28,6 @@
       ]
     },
     {
-      "id": "nightline-express",
-      "name": "夜航快递 NIGHTLINE EXPRESS",
-      "version": "0.1.1",
-      "abi": "arm64-v8a",
-      "engine": "Godot 4.7.2",
-      "min_sdk": "21",
-      "desc": "午夜微缩铁路调度游戏：扳道岔、看信号、安排发车，把乘客送到对应颜色+形状的车站。12 关战役 + 种子挑战，全程序化原创美术与音频。",
-      "tags": [
-        "game",
-        "railway",
-        "puzzle",
-        "offline",
-        "godot"
-      ],
-      "file": "apks/nightline-express/夜航快递.apk",
-      "size": 29072227,
-      "sha256": "19880e4b17ab884de3782aff7fa9e4fd6ccd334c67a51762e46dade35979dac5",
-      "added": "2026-09-14",
-      "extra_files": [
-        {
-          "label": "模拟器 x86_64+arm64",
-          "file": "apks/nightline-express/NIGHTLINE-debug.apk",
-          "size": 57773048
-        }
-      ]
-    },
-    {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
       "version": "1.0.5",
@@ -78,6 +51,35 @@
           "label": "模拟器 x86_64",
           "file": "apks/miao-night-kitchen/喵夜魔法厨房-1.0.5-模拟器x86_64.apk",
           "size": 35252728
+        }
+      ]
+    },
+    {
+      "id": "nightline-express",
+      "name": "夜航快递 NIGHTLINE EXPRESS",
+      "version": "0.2.0",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2 (GL Compatibility)",
+      "min_sdk": "24",
+      "desc": "午夜微缩铁路调度：扳道岔、看信号、安排发车，把乘客送到对应颜色+形状的车站。12 关战役 + 种子挑战，全程序化原创美术与音频。v0.2.0 修复返回键退出丢进度、道岔被停住的车锁死、每次发车瞬移等 27 项缺陷；镜头改为贴合轨道取景，轨道/道岔/信号与点击热区全面放大。",
+      "tags": [
+        "游戏",
+        "铁路",
+        "调度",
+        "解谜",
+        "离线",
+        "Godot",
+        "横屏"
+      ],
+      "file": "apks/nightline-express/夜航快递-0.2.0-arm64.apk",
+      "size": 27269508,
+      "sha256": "315f93dd31b15c76488a882dbb950d5a5c886992fc6fd459840928c640a0fefd",
+      "added": "2026-09-15",
+      "extra_files": [
+        {
+          "label": "模拟器 x86_64+arm64",
+          "file": "apks/nightline-express/夜航快递-0.2.0-模拟器x86_64+arm64.apk",
+          "size": 53114003
         }
       ]
     }
