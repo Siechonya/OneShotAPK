@@ -1,0 +1,4 @@
+keys/*
+!keys/*.pub
+*.apk.idsig
+.DS_Store

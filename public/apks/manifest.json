@@ -1,0 +1,31 @@
+{
+  "site": "APK Hub",
+  "updated": "2026-09-14",
+  "apps": [
+    {
+      "id": "hotel-parallax",
+      "name": "折光旅馆 / HOTEL PARALLAX",
+      "version": "1.0.0",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2",
+      "min_sdk": "24",
+      "desc": "海上微缩旅馆解谜：旋转楼层改变连接、同符折光门穿越空间；四关递进+日出结局。离线单机、零权限、触控优先。",
+      "tags": [
+        "puzzle",
+        "offline",
+        "godot"
+      ],
+      "file": "apks/hotel-parallax/HotelParallax-arm64-debug.apk",
+      "size": 30511292,
+      "sha256": "073a6439303c277079450a18ab6840a3f698230eb60d3629cfe0a07b850c9428",
+      "added": "2026-09-14",
+      "extra_files": [
+        {
+          "label": "模拟器 x86_64",
+          "file": "apks/hotel-parallax/HotelParallax-x86_64-debug.apk",
+          "size": 33292470
+        }
+      ]
+    }
+  ]
+}
