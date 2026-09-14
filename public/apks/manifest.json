@@ -1,6 +1,6 @@
 {
   "site": "APK Hub",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "apps": [
     {
       "id": "hotel-parallax",
@@ -28,27 +28,6 @@
       ]
     },
     {
-      "id": "miao-night-kitchen",
-      "name": "喵夜魔法厨房",
-      "version": "1.0.4",
-      "abi": "arm64-v8a",
-      "engine": "Godot 4.7.2 (GL Compatibility)",
-      "min_sdk": "24",
-      "desc": "深夜厨房肉鸽：小猫魔女用魔法餐具击退暴食魔，4 武器×5 级、6 被动、2 条明示条件的进化路线。",
-      "tags": [
-        "游戏",
-        "离线",
-        "肉鸽",
-        "Godot",
-        "竖屏"
-      ],
-      "file": "apks/miao-night-kitchen/喵夜魔法厨房-1.0.4-arm64.apk",
-      "size": 32467454,
-      "sha256": "019d56b7860cccfa6da08263d06160e13dc88d3543598c529007eba6eebbc01d",
-      "added": "2026-09-14",
-      "extra_files": []
-    },
-    {
       "id": "nightline-express",
       "name": "夜航快递 NIGHTLINE EXPRESS",
       "version": "0.1.1",
@@ -72,6 +51,33 @@
           "label": "模拟器 x86_64+arm64",
           "file": "apks/nightline-express/NIGHTLINE-debug.apk",
           "size": 57773048
+        }
+      ]
+    },
+    {
+      "id": "miao-night-kitchen",
+      "name": "喵夜魔法厨房",
+      "version": "1.0.5",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2 (GL Compatibility)",
+      "min_sdk": "24",
+      "desc": "深夜厨房肉鸽：小猫魔女用魔法餐具击退暴食魔，4 武器×5 级、6 被动、2 条明示条件的进化路线。1.0.5 修复手机端竖屏锁定失效（之前被强制横屏）、高屏比例底部黑边、触控摇杆与暂停按钮失效；竖屏锁定 + 沉浸全屏 + 零权限。",
+      "tags": [
+        "游戏",
+        "离线",
+        "肉鸽",
+        "Godot",
+        "竖屏"
+      ],
+      "file": "apks/miao-night-kitchen/喵夜魔法厨房-1.0.5-arm64.apk",
+      "size": 32471550,
+      "sha256": "cffa5d52991030c8a00a36a4389bd032997711789f062c40234cdfe681039b02",
+      "added": "2026-09-15",
+      "extra_files": [
+        {
+          "label": "模拟器 x86_64",
+          "file": "apks/miao-night-kitchen/喵夜魔法厨房-1.0.5-模拟器x86_64.apk",
+          "size": 35252728
         }
       ]
     }
