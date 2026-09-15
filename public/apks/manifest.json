@@ -28,35 +28,6 @@
       ]
     },
     {
-      "id": "nightline-express",
-      "name": "夜航快递 NIGHTLINE EXPRESS",
-      "version": "0.2.0",
-      "abi": "arm64-v8a",
-      "engine": "Godot 4.7.2 (GL Compatibility)",
-      "min_sdk": "24",
-      "desc": "午夜微缩铁路调度：扳道岔、看信号、安排发车，把乘客送到对应颜色+形状的车站。12 关战役 + 种子挑战，全程序化原创美术与音频。v0.2.0 修复返回键退出丢进度、道岔被停住的车锁死、每次发车瞬移等 27 项缺陷；镜头改为贴合轨道取景，轨道/道岔/信号与点击热区全面放大。",
-      "tags": [
-        "游戏",
-        "铁路",
-        "调度",
-        "解谜",
-        "离线",
-        "Godot",
-        "横屏"
-      ],
-      "file": "apks/nightline-express/夜航快递-0.2.0-arm64.apk",
-      "size": 27269508,
-      "sha256": "315f93dd31b15c76488a882dbb950d5a5c886992fc6fd459840928c640a0fefd",
-      "added": "2026-09-15",
-      "extra_files": [
-        {
-          "label": "模拟器 x86_64+arm64",
-          "file": "apks/nightline-express/夜航快递-0.2.0-模拟器x86_64+arm64.apk",
-          "size": 53114003
-        }
-      ]
-    },
-    {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
       "version": "2.0.0",
@@ -82,6 +53,36 @@
           "label": "模拟器 x86_64",
           "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.0.0-模拟器x86_64.apk",
           "size": 35364174
+        }
+      ]
+    },
+    {
+      "id": "nightline-express",
+      "name": "夜航快递 NIGHTLINE EXPRESS",
+      "version": "0.2.0",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2 (GL Compatibility)",
+      "min_sdk": "24",
+      "desc": "午夜微缩铁路调度：点站台里的列车发车，把每位乘客送到他身上「颜色+形状」标记对应的那一站；线路冲突时扳道岩、切信号。12 关战役+种子挑战。首次进入有「怎么玩」引导；目标信息集中在左上角一个面板。",
+      "tags": [
+        "游戏",
+        "铁路",
+        "调度",
+        "解谜",
+        "离线",
+        "Godot",
+        "横屏",
+        "新手引导"
+      ],
+      "file": "apks/nightline-express/夜航快递-0.2.0-arm64.apk",
+      "size": 27291404,
+      "sha256": "559286d74d32a21c4aed3c0e2db7e5ada4d60fc87ef9528fb1a51d2a96109f7d",
+      "added": "2026-09-15",
+      "extra_files": [
+        {
+          "label": "模拟器 x86_64+arm64",
+          "file": "apks/nightline-express/夜航快递-0.2.0-模拟器x86_64+arm64.apk",
+          "size": 53135899
         }
       ]
     }
