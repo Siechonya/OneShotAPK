@@ -1,4 +1,19 @@
+# 私有部署密钥只留在本地，公开仓库只放公钥
 keys/*
 !keys/*.pub
+# 任何密钥/凭据类文件一律不进仓库（这是公开仓库）
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+id_ecdsa
+.env
+.env.*
+secrets.*
+credentials*
 *.apk.idsig
 .DS_Store
