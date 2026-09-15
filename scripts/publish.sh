@@ -15,7 +15,7 @@ git add -A
 # 完全依赖 .gitignore 不出错，所以这里再加一道硬检查：只要暂存区或已跟踪文件里出现
 # 私钥/凭据类文件，直接中止（宁可发布失败，也不能泄密）。
 staged="$(git diff --cached --name-only)"
-secret_re='(^|/)(id_rsa|id_ed25519|id_ecdsa)$|\.(pem|key|p12|pfx|jks|keystore)$|(^|/)\.env($|\.)|(^|/)secrets?\.|credentials'
+secret_re='(^|/)(id_rsa|id_ed25519|id_ecdsa)$|(^|/)[^/]*(_rsa|_ed25519|_ecdsa)$|\.(pem|key|p12|pfx|jks|keystore)$|(^|/)\.env($|\.)|(^|/)secrets?\.|credentials'
 bad="$(printf '%s\n' "$staged" | grep -Ei "$secret_re" | grep -v '\.pub$' || true)"
 if [ -n "$bad" ]; then
   echo "ERROR: 暂存区里有疑似密钥/凭据文件，已中止发布："
