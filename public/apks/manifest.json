@@ -96,6 +96,26 @@
           "size": 40391871
         }
       ]
+    },
+    {
+      "id": "voice-subtitle",
+      "name": "声字幕",
+      "version": "1.0.0",
+      "abi": "universal",
+      "engine": "Android native + OkHttp 3.14",
+      "min_sdk": "24",
+      "desc": "把手机周围的声音实时转成屏幕字幕，使用阿里云百炼 Qwen-Audio-3.0-ASR 流式识别",
+      "tags": [
+        "语音转文字",
+        "实时字幕",
+        "ASR",
+        "麦克风"
+      ],
+      "file": "apks/voice-subtitle/声字幕-1.0.0-universal.apk",
+      "size": 614252,
+      "sha256": "4ee25094c73c1065fe74bceb8665bac16758a72d7184f1c749c1008b27632cd0",
+      "added": "2026-09-18",
+      "extra_files": []
     }
   ]
 }
