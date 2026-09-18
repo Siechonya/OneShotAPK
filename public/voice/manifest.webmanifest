@@ -1,0 +1,13 @@
+{
+  "name": "声字幕 · 实时字幕",
+  "short_name": "声字幕",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0B0F16",
+  "theme_color": "#0B0F16",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
