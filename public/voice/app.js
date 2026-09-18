@@ -116,6 +116,14 @@ MicSource.prototype.start = function (sink) {
   return navigator.mediaDevices.getUserMedia({
     audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true, autoGainControl: true },
     video: false
+  }).catch(function (e) {
+    var standalone = (window.navigator.standalone === true);
+    var msg;
+    if (e && e.name === 'NotAllowedError') msg = '麦克风权限被拒绝，请在 设置 > Safari 中允许麦克风后重试';
+    else if (e && e.name === 'NotFoundError') msg = '没有检测到麦克风设备';
+    else msg = '无法打开麦克风：' + ((e && e.message) || e);
+    if (standalone) msg += '。若主屏幕模式下无法使用麦克风，请改用 Safari 直接打开本页';
+    throw new Error(msg);
   }).then(function (stream) {
     self.stream = stream;
     var Ctx = window.AudioContext || window.webkitAudioContext;
