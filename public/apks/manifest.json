@@ -1,6 +1,6 @@
 {
   "site": "APK Hub",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "apps": [
     {
       "id": "hotel-parallax",
@@ -80,21 +80,21 @@
     {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
-      "version": "2.11.0",
+      "version": "2.11.1",
       "abi": "arm64-v8a",
       "engine": "Godot 4.7.2",
       "min_sdk": "24",
-      "desc": "新增召唤师与猫灵精灵兔子伙伴、与海报一致的二次元动作；盾猫耄耋哈气曲面挡弹、低盾闪烁、碎盾1秒无敌；星星胡椒伤害再降25%，全新图标与启动动画，十一首立体声配乐。",
+      "desc": "真实近战召唤伙伴与分散队形，成长曲面盾实时跟随摇杆，盾量HUD、行走姿态与合作经验修复。",
       "tags": [
         "roguelike",
-        "offline",
-        "coop",
-        "godot"
+        "action",
+        "co-op",
+        "cats"
       ],
-      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.11.0-arm64.apk",
-      "size": 46549079,
-      "sha256": "828da7d26a46f9c4f29c1ec0fb752dd6765677a8ce7b85853de22791c73b4a15",
-      "added": "2026-10-06",
+      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.11.1-arm64.apk",
+      "size": 46692439,
+      "sha256": "b2affadbeb1e717f912bdf0508d3c99801ea51df639adc77611158ff5405f1c3",
+      "added": "2026-10-07",
       "extra_files": []
     }
   ]
