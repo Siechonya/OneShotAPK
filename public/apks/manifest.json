@@ -80,20 +80,20 @@
     {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
-      "version": "2.12.2",
+      "version": "2.12.3",
       "abi": "arm64-v8a",
       "engine": "Godot 4.7.2",
       "min_sdk": "24",
-      "desc": "死亡保留六秒自动档，手动槽正确命名；五猫与Boss独立立体声音效；读档保留战斗，强化集结号令与哈气盾，伙伴放大、蓝心盾量。",
+      "desc": "致命伤前自动存档，新局只覆盖自动格；新手气泡、折叠角色卡与可点击状态说明，召唤师开局特效修复。",
       "tags": [
         "roguelike",
         "action",
         "co-op",
         "cats"
       ],
-      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.12.2-arm64.apk",
-      "size": 48701259,
-      "sha256": "dbc3958adee969f5b0fe68bf76c1696f60b9ac94982c40580f0e4ad1022f831e",
+      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.12.3-arm64.apk",
+      "size": 49066930,
+      "sha256": "7115333b89b6c4b469426de29e49abfd66141297e7bdafb5e434ef4f60bc8f2a",
       "added": "2026-10-07",
       "extra_files": []
     }
