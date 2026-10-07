@@ -80,20 +80,20 @@
     {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
-      "version": "2.12.0",
+      "version": "2.12.1",
       "abi": "arm64-v8a",
       "engine": "Godot 4.7.2",
       "min_sdk": "24",
-      "desc": "六种召唤伙伴：爪击、冲扑、法球、治疗与有限圆盾；扩容升级自选伙伴，加强起手并重写玩家角色介绍。",
+      "desc": "角色选卡倾向：专属武器、天赋与技能更容易出现，盾猫偏向回复；保留随机、三选一与伙伴招募。",
       "tags": [
         "roguelike",
         "action",
         "co-op",
         "cats"
       ],
-      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.12.0-arm64.apk",
+      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.12.1-arm64.apk",
       "size": 46800173,
-      "sha256": "3409c421db87213e6ce48912460637d07ce916fdae3c2490412e1c80a37ae40f",
+      "sha256": "ea4708b6b047bbdefcd102d463b9588d31082c02af742cbc0a637194c5bd9087",
       "added": "2026-10-07",
       "extra_files": []
     }
