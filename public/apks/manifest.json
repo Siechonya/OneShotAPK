@@ -1,6 +1,6 @@
 {
   "site": "APK Hub",
-  "updated": "2026-10-07",
+  "updated": "2026-10-11",
   "apps": [
     {
       "id": "hotel-parallax",
@@ -80,21 +80,21 @@
     {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
-      "version": "2.12.3",
+      "version": "2.13.0",
       "abi": "arm64-v8a",
       "engine": "Godot 4.7.2",
       "min_sdk": "24",
-      "desc": "致命伤前自动存档，新局只覆盖自动格；新手气泡、折叠角色卡与可点击状态说明，召唤师开局特效修复。",
+      "desc": "五猫专精路线、战斗辨识优化、贡献结算、音量与提示回顾、随机厨房小目标，并修复治疗与界面残留。",
       "tags": [
-        "roguelike",
-        "action",
-        "co-op",
-        "cats"
+        "游戏",
+        "生存",
+        "联机",
+        "猫咪"
       ],
-      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.12.3-arm64.apk",
-      "size": 49066930,
-      "sha256": "7115333b89b6c4b469426de29e49abfd66141297e7bdafb5e434ef4f60bc8f2a",
-      "added": "2026-10-07",
+      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.13.0-arm64.apk",
+      "size": 49133120,
+      "sha256": "5d69b9cff13483c413bcbfcba1b0f545b61735cca71641c39036d01f004dd912",
+      "added": "2026-10-11",
       "extra_files": []
     }
   ]
