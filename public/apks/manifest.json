@@ -80,21 +80,20 @@
     {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
-      "version": "2.13.1",
+      "version": "2.13.2",
       "abi": "arm64-v8a",
       "engine": "Godot 4.7.2",
       "min_sdk": "24",
-      "desc": "每局三次原地复活与存档计数；错峰投弹、精英强化、不同敌弹与蓄力预警，指引防越界。",
+      "desc": "伙伴前摇追近与预瞄修复；敌弹长宽两倍；字幕按3字每秒停留并避让联机状态；保留罐头自动救场。",
       "tags": [
-        "game",
         "roguelite",
-        "cats",
-        "magic",
-        "multiplayer"
+        "offline",
+        "coop",
+        "godot"
       ],
-      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.13.1-arm64.apk",
+      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.13.2-arm64.apk",
       "size": 49227646,
-      "sha256": "fe7dfc66586f85948fb7a484343e2970a067f010e4fe6065eb7873a8c54c9822",
+      "sha256": "89b2ce261525b0f986f04b1b5335ba077525d0cf5f666fd6c242e4571e023d99",
       "added": "2026-10-12",
       "extra_files": []
     }
