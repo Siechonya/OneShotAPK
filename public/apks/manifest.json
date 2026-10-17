@@ -48,26 +48,6 @@
       "extra_files": []
     },
     {
-      "id": "miao-night-kitchen",
-      "name": "喵夜魔法厨房",
-      "version": "2.13.2",
-      "abi": "arm64-v8a",
-      "engine": "Godot 4.7.2",
-      "min_sdk": "24",
-      "desc": "伙伴前摇追近与预瞄修复；敌弹长宽两倍；字幕按3字每秒停留并避让联机状态；保留罐头自动救场。",
-      "tags": [
-        "roguelite",
-        "offline",
-        "coop",
-        "godot"
-      ],
-      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.13.2-arm64.apk",
-      "size": 49227646,
-      "sha256": "89b2ce261525b0f986f04b1b5335ba077525d0cf5f666fd6c242e4571e023d99",
-      "added": "2026-10-12",
-      "extra_files": []
-    },
-    {
       "id": "nightline-express",
       "name": "夜航快递",
       "version": "0.3.0",
@@ -85,6 +65,26 @@
       "file": "apks/nightline-express/夜航快递-0.3.0-arm64.apk",
       "size": 27184531,
       "sha256": "783f3430475608307c580fd17d0250e635f4b657184d133457d530d26d68fe4b",
+      "added": "2026-10-18",
+      "extra_files": []
+    },
+    {
+      "id": "miao-night-kitchen",
+      "name": "喵夜魔法厨房",
+      "version": "2.13.3",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2",
+      "min_sdk": "24",
+      "desc": "修复重复减伤、合作刷怪与房间触发，完善倒地救援和宝箱奖励结算。",
+      "tags": [
+        "横屏",
+        "联机",
+        "猫咪",
+        "生存"
+      ],
+      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.13.3-arm64.apk",
+      "size": 49227646,
+      "sha256": "61a2dfc7879bd5a9aef38cf0b726cb96d18dbc29970460d554ccda5d6d60b37c",
       "added": "2026-10-18",
       "extra_files": []
     }
