@@ -23,27 +23,6 @@
       "extra_files": []
     },
     {
-      "id": "nightline-express",
-      "name": "夜航快递",
-      "version": "0.3.0",
-      "abi": "arm64-v8a",
-      "engine": "Godot 4.7.2",
-      "min_sdk": "24",
-      "desc": "午夜微缩铁路调度：12关战役、5种种子线路、手动道岔与信号，暂停布置与自动续局。",
-      "tags": [
-        "铁路",
-        "调度",
-        "单机",
-        "横屏",
-        "策略"
-      ],
-      "file": "apks/nightline-express/夜航快递-0.3.0-arm64.apk",
-      "size": 27184531,
-      "sha256": "783f3430475608307c580fd17d0250e635f4b657184d133457d530d26d68fe4b",
-      "added": "2026-10-18",
-      "extra_files": []
-    },
-    {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
       "version": "2.13.3",
@@ -87,6 +66,27 @@
           "size": 33308292
         }
       ]
+    },
+    {
+      "id": "nightline-express",
+      "name": "夜航快递",
+      "version": "0.3.0",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2",
+      "min_sdk": "24",
+      "desc": "午夜微缩铁路调度：12关战役、5种种子线路、手动道岔与信号，暂停布置与自动续局。",
+      "tags": [
+        "铁路",
+        "调度",
+        "单机",
+        "横屏",
+        "策略"
+      ],
+      "file": "apks/nightline-express/夜航快递-0.3.0-arm64.apk",
+      "size": 27184531,
+      "sha256": "783f3430475608307c580fd17d0250e635f4b657184d133457d530d26d68fe4b",
+      "added": "2026-10-18",
+      "extra_files": []
     }
   ]
 }
