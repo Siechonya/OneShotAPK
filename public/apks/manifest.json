@@ -43,27 +43,6 @@
       "extra_files": []
     },
     {
-      "id": "nightline-express",
-      "name": "夜航快递",
-      "version": "0.3.0",
-      "abi": "arm64-v8a",
-      "engine": "Godot 4.7.2",
-      "min_sdk": "24",
-      "desc": "午夜微缩铁路调度：12关战役、5种种子线路、手动道岔与信号，暂停布置与自动续局。",
-      "tags": [
-        "铁路",
-        "调度",
-        "单机",
-        "横屏",
-        "策略"
-      ],
-      "file": "apks/nightline-express/夜航快递-0.3.0-arm64.apk",
-      "size": 27184531,
-      "sha256": "af70836858dd1b90547cbc77992c28da7c320acd625c8aaae3cc81d053aa42c1",
-      "added": "2026-10-18",
-      "extra_files": []
-    },
-    {
       "id": "hotel-parallax",
       "name": "折光旅馆 / HOTEL PARALLAX",
       "version": "2.1.0",
@@ -87,6 +66,26 @@
           "size": 35242707
         }
       ]
+    },
+    {
+      "id": "nightline-express",
+      "name": "夜航快递",
+      "version": "0.4.0",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2",
+      "min_sdk": "24",
+      "desc": "重做全部关卡的站卡、道岔和规则教学：清楚认徽章、自主定路线；支持暂停布置、十二关与种子挑战。",
+      "tags": [
+        "铁路调度",
+        "解谜",
+        "离线",
+        "横屏"
+      ],
+      "file": "apks/nightline-express/夜航快递-0.4.0-arm64.apk",
+      "size": 27217134,
+      "sha256": "2b892fa54dc6eeb46291864fcb15094c190fa35846d18c1d52cf04d7187dabbb",
+      "added": "2026-10-18",
+      "extra_files": []
     }
   ]
 }
