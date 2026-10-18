@@ -43,31 +43,6 @@
       "extra_files": []
     },
     {
-      "id": "hotel-parallax",
-      "name": "折光旅馆 / HOTEL PARALLAX",
-      "version": "2.1.0",
-      "abi": "arm64-v8a",
-      "engine": "Godot 4.7.2",
-      "min_sdk": "24",
-      "desc": "柔和黄昏中的海上建筑解谜：两段入门练习、八个章节，旋转回廊、同符折光门与潮汐钟；重做实机模型、状态引导与空间规则，过场使用同一游戏场景渲染。离线单机、零权限。",
-      "tags": [
-        "puzzle",
-        "offline",
-        "godot"
-      ],
-      "file": "apks/hotel-parallax/折光旅馆-2.1.0-arm64.apk",
-      "size": 32461529,
-      "sha256": "a52776d076135833b4acd03b30177785197be00ff8635f5ae824a3ecbfa7029d",
-      "added": "2026-10-18",
-      "extra_files": [
-        {
-          "label": "模拟器 x86_64",
-          "file": "apks/hotel-parallax/折光旅馆-2.1.0-模拟器x86_64.apk",
-          "size": 35242707
-        }
-      ]
-    },
-    {
       "id": "nightline-express",
       "name": "夜航快递",
       "version": "0.4.0",
@@ -86,6 +61,31 @@
       "sha256": "2b892fa54dc6eeb46291864fcb15094c190fa35846d18c1d52cf04d7187dabbb",
       "added": "2026-10-18",
       "extra_files": []
+    },
+    {
+      "id": "hotel-parallax",
+      "name": "折光旅馆 / HOTEL PARALLAX",
+      "version": "2.2.0",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2",
+      "min_sdk": "24",
+      "desc": "柔和黄昏中的海上建筑解谜：两段入门练习与八个章节；目标灯标常驻显示，左下圆盘平移视角，机关首见说明与主动提示分开，修复旋转构件穿模。离线单机、零权限。",
+      "tags": [
+        "puzzle",
+        "offline",
+        "godot"
+      ],
+      "file": "apks/hotel-parallax/折光旅馆-2.2.0-arm64.apk",
+      "size": 32465959,
+      "sha256": "3e27108f8c77555b9bf4e8b4b4d339a1ff337023c4958302199b36b1101f37e0",
+      "added": "2026-10-18",
+      "extra_files": [
+        {
+          "label": "模拟器 x86_64",
+          "file": "apks/hotel-parallax/折光旅馆-2.2.0-模拟器x86_64.apk",
+          "size": 35247137
+        }
+      ]
     }
   ]
 }
