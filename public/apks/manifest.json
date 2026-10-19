@@ -70,21 +70,22 @@
     {
       "id": "voice-subtitle",
       "name": "声字幕",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "abi": "universal",
       "engine": "Android native + OkHttp 3.14.9",
       "min_sdk": "24",
-      "desc": "新增应用内自动更新提醒和一键跳转网页下载，支持平板双语字幕、课堂笔记、总结与录音回放。",
+      "desc": "新增可选麦克风、设备内声音和两路同时采集，支持平板双语字幕、课堂笔记、录音回放及自动更新提醒。",
       "tags": [
         "学习",
         "双语字幕",
         "平板",
+        "内录",
         "录音",
         "翻译"
       ],
-      "file": "apks/voice-subtitle/声字幕-2.0.1-universal.apk",
-      "size": 652975,
-      "sha256": "32b6681d3ee0926fc8d3822836cb8c716bc3c70fba2ea42a80535fb266898850",
+      "file": "apks/voice-subtitle/声字幕-2.1.0-universal.apk",
+      "size": 661167,
+      "sha256": "1889d13929b73952be8bcd6c5e63fd6e7f8aab71047c0db7bfaa04b9cefa7c77",
       "added": "2026-10-19",
       "extra_files": []
     }
