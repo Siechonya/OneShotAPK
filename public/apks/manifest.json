@@ -70,11 +70,11 @@
     {
       "id": "voice-subtitle",
       "name": "声字幕",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "abi": "universal",
       "engine": "Android native + OkHttp 3.14.9",
       "min_sdk": "24",
-      "desc": "平板横竖屏实时双语字幕，内置 Qwen 识别与 DeepSeek Flash 翻译，支持课堂笔记、复习总结、问答和录音回放。",
+      "desc": "新增应用内自动更新提醒和一键跳转网页下载，支持平板双语字幕、课堂笔记、总结与录音回放。",
       "tags": [
         "学习",
         "双语字幕",
@@ -82,9 +82,9 @@
         "录音",
         "翻译"
       ],
-      "file": "apks/voice-subtitle/声字幕-2.0.0-universal.apk",
-      "size": 644783,
-      "sha256": "a985967d1bb00fe84d009b03fbd07149171c210e675af5a3c87941032f15c8fc",
+      "file": "apks/voice-subtitle/声字幕-2.0.1-universal.apk",
+      "size": 652975,
+      "sha256": "32b6681d3ee0926fc8d3822836cb8c716bc3c70fba2ea42a80535fb266898850",
       "added": "2026-10-19",
       "extra_files": []
     }

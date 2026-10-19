@@ -63,6 +63,7 @@ async function load(){
   el.innerHTML = '';
   for(const a of apps){
     const card = document.createElement('section');
+    card.id = 'app-' + a.id;
     card.className = 'card';
     const extras = (a.extra_files||[]).map(f=>'<a class="btn alt" href="'+esc(f.file)+'">'+esc(f.label||f.file)+'</a>').join('');
     card.innerHTML =
@@ -81,6 +82,8 @@ async function load(){
   }
   document.getElementById('foot').textContent =
     '更新：' + (m.updated||'') + ' · 共 ' + apps.length + ' 个应用 · 接口：GET /api/apps';
+  const target = document.getElementById(location.hash.slice(1));
+  if(target) target.scrollIntoView({block:'center'});
 }
 load();
 </script>
