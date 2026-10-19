@@ -1,27 +1,7 @@
 {
   "site": "APK Hub",
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "apps": [
-    {
-      "id": "voice-subtitle",
-      "name": "声字幕",
-      "version": "1.0.0",
-      "abi": "universal",
-      "engine": "Android native + OkHttp 3.14",
-      "min_sdk": "24",
-      "desc": "把手机周围的声音实时转成屏幕字幕，使用阿里云百炼 Qwen-Audio-3.0-ASR 流式识别",
-      "tags": [
-        "语音转文字",
-        "实时字幕",
-        "ASR",
-        "麦克风"
-      ],
-      "file": "apks/voice-subtitle/声字幕-1.0.0-universal.apk",
-      "size": 614252,
-      "sha256": "4ee25094c73c1065fe74bceb8665bac16758a72d7184f1c749c1008b27632cd0",
-      "added": "2026-09-18",
-      "extra_files": []
-    },
     {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
@@ -86,6 +66,27 @@
           "size": 35247137
         }
       ]
+    },
+    {
+      "id": "voice-subtitle",
+      "name": "声字幕",
+      "version": "2.0.0",
+      "abi": "universal",
+      "engine": "Android native + OkHttp 3.14.9",
+      "min_sdk": "24",
+      "desc": "平板横竖屏实时双语字幕，内置 Qwen 识别与 DeepSeek Flash 翻译，支持课堂笔记、复习总结、问答和录音回放。",
+      "tags": [
+        "学习",
+        "双语字幕",
+        "平板",
+        "录音",
+        "翻译"
+      ],
+      "file": "apks/voice-subtitle/声字幕-2.0.0-universal.apk",
+      "size": 644783,
+      "sha256": "a985967d1bb00fe84d009b03fbd07149171c210e675af5a3c87941032f15c8fc",
+      "added": "2026-10-19",
+      "extra_files": []
     }
   ]
 }
