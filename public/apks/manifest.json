@@ -1,6 +1,6 @@
 {
   "site": "APK Hub",
-  "updated": "2026-10-19",
+  "updated": "2026-10-23",
   "apps": [
     {
       "id": "miao-night-kitchen",
@@ -87,6 +87,27 @@
       "size": 661167,
       "sha256": "1889d13929b73952be8bcd6c5e63fd6e7f8aab71047c0db7bfaa04b9cefa7c77",
       "added": "2026-10-19",
+      "extra_files": []
+    },
+    {
+      "id": "warm-fields",
+      "name": "暖风原野",
+      "version": "0.1.0",
+      "abi": "arm64-v8a",
+      "engine": "Godot 4.7.2",
+      "min_sdk": "24",
+      "desc": "温馨体素探索可玩样板：双视角、种子世界、六位邻居、种花与短任务。CPU逻辑测试通过，画面与真机手感待体验确认。",
+      "tags": [
+        "休闲",
+        "探索",
+        "体素",
+        "离线",
+        "样板"
+      ],
+      "file": "apks/warm-fields/暖风原野-0.1.0-arm64.apk",
+      "size": 26995576,
+      "sha256": "c79b9a5bfc88f59b96ca81f24f69c07d4c4ccf65bca2d45bc7afe2f5feb10f5c",
+      "added": "2026-10-23",
       "extra_files": []
     }
   ]
