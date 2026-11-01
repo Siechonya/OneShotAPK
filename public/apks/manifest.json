@@ -91,22 +91,22 @@
     {
       "id": "voice-subtitle",
       "name": "声字幕",
-      "version": "2.1.1",
+      "version": "2.2.0",
       "abi": "universal",
       "engine": "Android native + OkHttp 3.14.9",
       "min_sdk": "24",
-      "desc": "字幕已是目标语种时直接复用原文，减少翻译请求；支持设备内录、麦克风同时采集与平板双语字幕。",
+      "desc": "平板实时双语字幕，三种声音来源、完整上下文问答、流式长回答与停止续写。",
       "tags": [
         "学习",
-        "双语字幕",
+        "字幕",
+        "翻译",
         "平板",
-        "内录",
         "录音",
-        "翻译"
+        "AI"
       ],
-      "file": "apks/voice-subtitle/声字幕-2.1.1-universal.apk",
-      "size": 661167,
-      "sha256": "47084050eb870acf5600064f186cd807c260ad3a2cc48fb7f117f31983490fd0",
+      "file": "apks/voice-subtitle/声字幕-2.2.0-universal.apk",
+      "size": 673455,
+      "sha256": "b02ad5214c88e17c6109ba6c90f2db09007c494cade925a8d6b07e9f0004ad51",
       "added": "2026-11-01",
       "extra_files": []
     }
