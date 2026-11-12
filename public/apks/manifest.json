@@ -1,6 +1,6 @@
 {
   "site": "APK Hub",
-  "updated": "2026-11-09",
+  "updated": "2026-11-12",
   "apps": [
     {
       "id": "nightline-express",
@@ -93,21 +93,21 @@
     {
       "id": "miao-night-kitchen",
       "name": "喵夜魔法厨房",
-      "version": "2.14.0",
+      "version": "2.14.1",
       "abi": "arm64-v8a",
       "engine": "Godot 4.7.2",
       "min_sdk": "24",
-      "desc": "首章新增可选厨房订单，改进联机重连投票与重开提示，Android 战斗返回键可暂停并自动存档。",
+      "desc": "猫咪厨房动作肉鸽：修复闯关跨章自动存档，并核对技能、卡牌、专精和帮助说明。",
       "tags": [
-        "横屏",
-        "联机",
-        "猫咪",
-        "生存"
+        "游戏",
+        "动作",
+        "肉鸽",
+        "联机"
       ],
-      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.14.0-arm64.apk",
-      "size": 49240095,
-      "sha256": "b7e0f573d6353e65601f7314a2d2b2fce342ff2a150e5f09a21ad4b638f8e861",
-      "added": "2026-11-09",
+      "file": "apks/miao-night-kitchen/喵夜魔法厨房-2.14.1-arm64.apk",
+      "size": 49244191,
+      "sha256": "88584c1b8fc8c645332e45f9b308c01d07706e5f419389084b491a37c6b694ee",
+      "added": "2026-11-12",
       "extra_files": []
     }
   ]
